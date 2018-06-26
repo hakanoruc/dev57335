@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Person" max_length="40" name="x_222269_lys_person" type="collection">
+        <element label="Age" max_length="10" name="age" type="string"/>
+        <element label="Case" max_length="32" name="case" reference="x_222269_lys_case" type="reference"/>
+        <element label="City Register" max_length="60" name="city_register" type="string"/>
+        <element label="Clothes Size" max_length="5" name="clothes_size" type="string"/>
+        <element label="Date of birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="District Register" max_length="60" name="district_register" type="string"/>
+        <element label="Father Name" max_length="60" name="father_name" type="string"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element label="Erkek" language="tr" sequence="10" value="male"/>
+                <element label="Female" sequence="10" value="female"/>
+                <element label="Kadın" language="tr" sequence="10" value="female"/>
+                <element label="Male" sequence="10" value="male"/>
+            </choice>
+        </element>
+        <element label="Last Name" max_length="60" name="last_name" type="string"/>
+        <element choice="1" label="Marital Status" max_length="40" name="marital_status" type="choice">
+            <choice>
+                <element label="Married" sequence="0" value="married"/>
+                <element label="Bekar" language="tr" sequence="10" value="single"/>
+                <element label="Single" sequence="10" value="single"/>
+                <element label="Evli" language="tr" sequence="20" value="married"/>
+                <element label="Boşanmış" language="tr" sequence="30" value="divorced"/>
+                <element label="Divorced" sequence="30" value="divorced"/>
+                <element label="Dul" language="tr" sequence="40" value="widow"/>
+                <element label="Widow" sequence="40" value="widow"/>
+            </choice>
+        </element>
+        <element label="Mother Name" max_length="60" name="mother_name" type="string"/>
+        <element label="Name" max_length="60" name="name" type="string"/>
+        <element label="Personel ID" max_length="11" name="personel_id" type="string"/>
+        <element label="Place of birth" max_length="60" name="place_of_birth" type="string"/>
+        <element label="Shoe Number" max_length="5" name="shoe_number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Adreste" language="tr" value="at the address"/>
+                <element label="Askerde" language="tr" value="soldier"/>
+                <element label="At the address" value="at the address"/>
+                <element label="Cezaevinde" language="tr" value="in prison"/>
+                <element label="Closed" value="closed"/>
+                <element label="Dead" value="dead"/>
+                <element label="Defaulter" value="defaulter"/>
+                <element label="Gaip" language="tr" value="defaulter"/>
+                <element label="In prison" value="in prison"/>
+                <element label="Kapalı" language="tr" value="closed"/>
+                <element label="Ölü" language="tr" value="dead"/>
+                <element label="Out of citizenship" value="out of citizenship"/>
+                <element label="Soldier" value="soldier"/>
+                <element label="Vatandaşlıktan Çıkmış" language="tr" value="out of citizenship"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

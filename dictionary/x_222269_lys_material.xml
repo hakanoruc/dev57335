@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Material" max_length="40" name="x_222269_lys_material" type="collection">
+        <element label="Barcode" max_length="40" name="barcode" type="string"/>
+        <element label="Class" max_length="32" name="class" reference="x_222269_lys_material_class" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element dependent="properties" dependent_on_field="properties" label="Properties" max_length="4000" name="properties" reference="x_222269_lys_material_properties" type="glide_list" use_dependent_field="true"/>
+        <index name="index">
+            <element name="class"/>
+        </index>
+    </element>
+</database>

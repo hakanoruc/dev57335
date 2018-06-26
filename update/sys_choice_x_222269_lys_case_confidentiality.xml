@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="confidentiality" table="x_222269_lys_case" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>confidentiality</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Açık</label>
+            <language>tr</language>
+            <name>x_222269_lys_case</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:00:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76e6000cdbc293000c0f5385ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:00:49</sys_updated_on>
+            <value>open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>confidentiality</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_222269_lys_case</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:00:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0d64484dbc293000c0f5385ca9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:00:41</sys_updated_on>
+            <value>open</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>confidentiality</element>
+            <name>x_222269_lys_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:00:41</sys_created_on>
+            <sys_id>85e60088dbc293000c0f5385ca96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>confidentiality</sys_name>
+            <sys_package display_value="LYS" source="x_222269_lys">4c70e2b2db3113000c0f5385ca96192a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LYS">4c70e2b2db3113000c0f5385ca96192a</sys_scope>
+            <sys_update_name>sys_choice_x_222269_lys_case_confidentiality</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:00:41</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

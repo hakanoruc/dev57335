@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="date_of_birth" label="Doğum Tarihi" language="tr" table="x_222269_lys_person">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>date_of_birth</element>
+            <help/>
+            <hint/>
+            <label>Doğum Tarihi</label>
+            <language>tr</language>
+            <name>x_222269_lys_person</name>
+            <plural>Doğum Tarihleri</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-05 00:35:54</sys_created_on>
+            <sys_id>91967632db7113000c0f5385ca9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Doğum Tarihi</sys_name>
+            <sys_package display_value="LYS" source="x_222269_lys">4c70e2b2db3113000c0f5385ca96192a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LYS">4c70e2b2db3113000c0f5385ca96192a</sys_scope>
+            <sys_update_name>sys_documentation_x_222269_lys_person_date_of_birth_tr</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-05 00:35:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

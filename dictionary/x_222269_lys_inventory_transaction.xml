@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Inventory transaction" max_length="40" name="x_222269_lys_inventory_transaction" type="collection">
+        <element label="Check in quantity" max_length="40" name="check_in_quantity" type="integer"/>
+        <element label="Check out quantity" max_length="40" name="check_out_quantity" type="integer"/>
+        <element label="Inventory" max_length="32" name="inventory" reference="x_222269_lys_material" type="reference"/>
+        <element label="Logistics Number" max_length="32" name="logistics_number" reference="x_222269_lys_logistics" type="reference"/>
+        <element dependent="inventory" dependent_on_field="inventory" label="Properties" max_length="4000" name="properties" reference="x_222269_lys_material_properties" type="glide_list" use_dependent_field="true"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Stockroom" max_length="32" name="stockroom" reference="alm_stockroom" type="reference"/>
+        <index name="index">
+            <element name="stockroom"/>
+        </index>
+        <index name="index2">
+            <element name="inventory"/>
+        </index>
+        <index name="index3">
+            <element name="logistics_number"/>
+        </index>
+    </element>
+</database>

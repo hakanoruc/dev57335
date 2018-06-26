@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>stock_checkin</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-14 12:43:58</sys_created_on>
+        <sys_id>e6833f39db8213000c0f5385ca9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stock_checkin</sys_name>
+        <sys_package display_value="LYS" source="x_222269_lys">4c70e2b2db3113000c0f5385ca96192a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LYS">4c70e2b2db3113000c0f5385ca96192a</sys_scope>
+        <sys_update_name>sys_ui_view_e6833f39db8213000c0f5385ca9619a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-14 12:43:58</sys_updated_on>
+        <title>Stock_checkin</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

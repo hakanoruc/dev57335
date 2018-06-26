@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Logistics" max_length="40" name="x_222269_lys_logistics" type="collection">
+        <element label="Barcode" max_length="40" name="barcode" type="string"/>
+        <element label="Case Number" max_length="32" name="case_number" reference="x_222269_lys_case" type="reference"/>
+        <element label="Controlled by" max_length="32" name="controlled_by" reference="sys_user" type="reference"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Delivered by" max_length="32" name="delivered_by" reference="sys_user" type="reference"/>
+        <element label="Delivery date" max_length="40" name="delivery_date" type="glide_date"/>
+        <element label="Delivery Team Member 1" max_length="32" name="delivery_team_member_1" reference="sys_user" type="reference"/>
+        <element label="Delivery Team Member 2" max_length="32" name="delivery_team_member_2" reference="sys_user" type="reference"/>
+        <element label="Delivery Team Member 3" max_length="32" name="delivery_team_member_3" reference="sys_user" type="reference"/>
+        <element label="From Stockroom" max_length="32" name="from_stockroom" reference="alm_stockroom" type="reference"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="Prepared by" max_length="32" name="prepared_by" reference="sys_user" type="reference"/>
+        <element label="Printed" max_length="40" name="printed" type="boolean"/>
+        <element label="Project" max_length="32" name="project" reference="x_222269_lys_project" type="reference"/>
+        <element label="Received by" max_length="32" name="receiver_by" reference="sys_user" type="reference"/>
+        <element label="Reference Document" max_length="40" name="reference_document" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Stock transaction" max_length="40" name="stock_transaction" type="choice">
+            <choice>
+                <element label="Check in" value="check in"/>
+                <element label="Check out" value="check out"/>
+                <element label="Çıkış" language="tr" value="check out"/>
+                <element label="Depo transferi" language="tr" value="transfer"/>
+                <element label="Giriş" language="tr" value="check in"/>
+                <element label="Stockroom Transfer" value="transfer"/>
+            </choice>
+        </element>
+        <element label="Temporary Document" max_length="40" name="temporary_document" type="string"/>
+        <element label="To Stockroom" max_length="32" name="to_stockroom" reference="alm_stockroom" type="reference"/>
+        <element choice="1" label="Transaction Type" max_length="40" name="transaction_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Vehicle" max_length="32" name="vehicle" reference="x_222269_lys_vehicle" type="reference"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+        <index name="index">
+            <element name="delivered_by"/>
+        </index>
+        <index name="index2">
+            <element name="to_stockroom"/>
+        </index>
+        <index name="index3">
+            <element name="delivery_team_member_1"/>
+        </index>
+        <index name="index4">
+            <element name="project"/>
+        </index>
+        <index name="index5">
+            <element name="receiver_by"/>
+        </index>
+        <index name="index6">
+            <element name="controlled_by"/>
+        </index>
+        <index name="index7">
+            <element name="delivery_team_member_2"/>
+        </index>
+        <index name="index8">
+            <element name="delivery_team_member_3"/>
+        </index>
+        <index name="index9">
+            <element name="vehicle"/>
+        </index>
+        <index name="index10">
+            <element name="prepared_by"/>
+        </index>
+        <index name="index11">
+            <element name="vendor"/>
+        </index>
+        <index name="index12">
+            <element name="case_number"/>
+        </index>
+        <index name="index13">
+            <element name="from_stockroom"/>
+        </index>
+    </element>
+</database>

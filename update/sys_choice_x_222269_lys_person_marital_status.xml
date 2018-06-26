@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="marital_status" table="x_222269_lys_person" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Married</label>
+            <language>en</language>
+            <name>x_222269_lys_person</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:46:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c31d440db0693000c0f5385ca961926</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:49:57</sys_updated_on>
+            <value>married</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bekar</label>
+            <language>tr</language>
+            <name>x_222269_lys_person</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:47:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1981140cdbc293000c0f5385ca961982</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:49:20</sys_updated_on>
+            <value>single</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Single</label>
+            <language>en</language>
+            <name>x_222269_lys_person</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:47:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4991d440db0693000c0f5385ca96190c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:49:34</sys_updated_on>
+            <value>single</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Evli</label>
+            <language>tr</language>
+            <name>x_222269_lys_person</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:46:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6611000db0693000c0f5385ca961999</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:49:53</sys_updated_on>
+            <value>married</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Boşanmış</label>
+            <language>tr</language>
+            <name>x_222269_lys_person</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:48:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06b15440db0693000c0f5385ca96198e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:50:02</sys_updated_on>
+            <value>divorced</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Divorced</label>
+            <language>en</language>
+            <name>x_222269_lys_person</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:47:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fa1144cdbc293000c0f5385ca96194b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:50:06</sys_updated_on>
+            <value>divorced</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dul</label>
+            <language>tr</language>
+            <name>x_222269_lys_person</name>
+            <sequence>40</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57c118ccdbc293000c0f5385ca9619d0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:49:41</sys_updated_on>
+            <value>widow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Widow</label>
+            <language>en</language>
+            <name>x_222269_lys_person</name>
+            <sequence>40</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:48:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5d11c40db0693000c0f5385ca9619ad</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:49:46</sys_updated_on>
+            <value>widow</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>marital_status</element>
+            <name>x_222269_lys_person</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 09:46:25</sys_created_on>
+            <sys_id>c3515440db0693000c0f5385ca96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>marital_status</sys_name>
+            <sys_package display_value="LYS" source="x_222269_lys">4c70e2b2db3113000c0f5385ca96192a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LYS">4c70e2b2db3113000c0f5385ca96192a</sys_scope>
+            <sys_update_name>sys_choice_x_222269_lys_person_marital_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 09:46:25</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

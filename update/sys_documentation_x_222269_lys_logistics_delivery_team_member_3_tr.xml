@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="delivery_team_member_3" label="Ekip üyesi 3" language="tr" table="x_222269_lys_logistics">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>delivery_team_member_3</element>
+            <help/>
+            <hint/>
+            <label>Ekip üyesi 3</label>
+            <language>tr</language>
+            <name>x_222269_lys_logistics</name>
+            <plural>Ekip üyesi 3</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-10 14:19:38</sys_created_on>
+            <sys_id>a4136fa0dbc213000c0f5385ca961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ekip üyesi 3</sys_name>
+            <sys_package display_value="LYS" source="x_222269_lys">4c70e2b2db3113000c0f5385ca96192a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LYS">4c70e2b2db3113000c0f5385ca96192a</sys_scope>
+            <sys_update_name>sys_documentation_x_222269_lys_logistics_delivery_team_member_3_tr</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-10 14:19:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

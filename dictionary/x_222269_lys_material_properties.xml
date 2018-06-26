@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Material Properties" max_length="40" name="x_222269_lys_material_properties" type="collection">
+        <element label="Material" max_length="32" name="material" reference="x_222269_lys_material" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <index name="index">
+            <element name="material"/>
+        </index>
+    </element>
+</database>

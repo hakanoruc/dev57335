@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Address" max_length="40" name="x_222269_lys_address" type="collection">
+        <element label="Alternative District" max_length="60" name="alternative_district" type="string"/>
+        <element label="Alternative Main Street" max_length="60" name="alternative_main_street" type="string"/>
+        <element label="Apartment Number" max_length="10" name="apartment_number" type="string"/>
+        <element label="Building Name" max_length="60" name="building_name" type="string"/>
+        <element label="Building Number" max_length="10" name="building_number" type="string"/>
+        <element label="Case" max_length="32" name="case" reference="x_222269_lys_case" type="reference"/>
+        <element label="City" max_length="60" name="city" reference="u_city" type="reference"/>
+        <element label="County" max_length="60" name="county" reference="u_county" type="reference"/>
+        <element dependent="county" dependent_on_field="county" label="District" max_length="60" name="district" reference="u_district" type="reference" use_dependent_field="true"/>
+        <element label="Main Street" max_length="60" name="main_street" type="string"/>
+        <element label="Street" max_length="40" name="sokak" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Address Corect" value="address correct"/>
+                <element label="Address Incorrect" value="address incorrect"/>
+                <element label="Adres Doğru" language="tr" value="address correct"/>
+                <element label="Adres Yanlış" language="tr" value="address incorrect"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="status" dependent_on_field="status" label="Alt Durum" max_length="40" name="sub_status" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="address correct" label="Adreste görüşüldü" language="tr" sequence="10" value="visited at the address"/>
+                <element dependent_value="address correct" label="Visited at the address" sequence="10" value="visited at the address"/>
+                <element dependent_value="address correct" label="Adreste teslim edildi" language="tr" sequence="20" value="delivered at the address"/>
+                <element dependent_value="address correct" label="Delivered at the address" sequence="20" value="delivered at the address"/>
+                <element dependent_value="address correct" label="Adreste Bulunamadı" language="tr" sequence="30" value="not found at address"/>
+                <element dependent_value="address correct" label="Not Found at Address" sequence="30" value="not found at address"/>
+                <element dependent_value="address correct" label="Adreste hiç yaşamamış" language="tr" sequence="40" value="never lived at address"/>
+                <element dependent_value="address correct" label="Never Lived at Address" sequence="40" value="never lived at address"/>
+                <element dependent_value="address correct" label="Adresten Taşınmış" language="tr" sequence="50" value="moved"/>
+                <element dependent_value="address correct" label="Moved" sequence="50" value="moved"/>
+                <element dependent_value="address correct" label="Adreste görüşmeyi redetti" language="tr" sequence="60" value="refused meeting"/>
+                <element dependent_value="address correct" label="Refused Metting" sequence="60" value="refused meeting"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

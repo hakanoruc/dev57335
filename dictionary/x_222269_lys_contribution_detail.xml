@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Yardım Detay" max_length="40" name="x_222269_lys_contribution_detail" type="collection">
+        <element label="Case" max_length="32" name="case" reference="x_222269_lys_case" type="reference"/>
+        <element label="Cause" max_length="40" name="cause" type="string"/>
+        <element label="Conclusion" max_length="40" name="conclusion" type="string"/>
+        <element label="Decision number" max_length="40" name="decision_number" type="string"/>
+        <element label="Delivery Notes" max_length="2000" name="delivery_notes" type="string"/>
+        <element label="Duration" max_length="40" name="duration" type="string"/>
+        <element label="Logistics number" max_length="40" name="logistics_number" reference="x_222269_lys_logistics" type="reference"/>
+        <element label="Material" max_length="40" name="material" reference="x_222269_lys_material" type="reference"/>
+        <element dependent="material" dependent_on_field="material" label="Material properties" max_length="4000" name="material_properties" reference="x_222269_lys_material_properties" type="glide_list" use_dependent_field="true"/>
+        <element label="Notes" max_length="2000" name="notes" type="string"/>
+        <element label="Period" max_length="40" name="period" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="string"/>
+        <element label="Request number" max_length="40" name="request_number" type="string"/>
+        <index name="index">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

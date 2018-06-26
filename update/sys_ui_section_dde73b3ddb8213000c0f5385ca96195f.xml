@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="dde73b3ddb8213000c0f5385ca96195f" sys_domain="global" table="x_222269_lys_logistics" version="3" view="stock_checkout">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>9de73b3ddb8213000c0f5385ca961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>11e73b3ddb8213000c0f5385ca961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>barcode</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>91e73b3ddb8213000c0f5385ca961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>15e73b3ddb8213000c0f5385ca961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>95e73b3ddb8213000c0f5385ca961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>19e73b3ddb8213000c0f5385ca961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stock_transaction</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>99e73b3ddb8213000c0f5385ca961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transaction_type</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>1de73b3ddb8213000c0f5385ca961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>9de73b3ddb8213000c0f5385ca961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>from_stockroom</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>11e73b3ddb8213000c0f5385ca961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>to_stockroom</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>91e73b3ddb8213000c0f5385ca961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>15e73b3ddb8213000c0f5385ca961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>delivery_team_member_1</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>95e73b3ddb8213000c0f5385ca961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>delivery_team_member_2</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>19e73b3ddb8213000c0f5385ca961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>delivery_team_member_3</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>99e73b3ddb8213000c0f5385ca961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>1de73b3ddb8213000c0f5385ca961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_id>9de73b3ddb8213000c0f5385ca961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_222269_lys_logistics" sys_domain="global" view="575496d5db0613000c0f5385ca9619e5">dde73b3ddb8213000c0f5385ca96195f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_222269_lys_logistics</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 13:03:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dde73b3ddb8213000c0f5385ca96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_222269_lys_logistics</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="LYS" source="x_222269_lys">4c70e2b2db3113000c0f5385ca96192a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LYS">4c70e2b2db3113000c0f5385ca96192a</sys_scope>
+            <sys_update_name>sys_ui_section_dde73b3ddb8213000c0f5385ca96195f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 13:03:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Stock_checkout" name="stock_checkout">575496d5db0613000c0f5385ca9619e5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

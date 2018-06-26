@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="printed" label="Yazdırıldı" language="tr" table="x_222269_lys_logistics">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>printed</element>
+            <help/>
+            <hint/>
+            <label>Yazdırıldı</label>
+            <language>tr</language>
+            <name>x_222269_lys_logistics</name>
+            <plural>Yazdırıldılar</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-10 14:27:16</sys_created_on>
+            <sys_id>24d4e364dbc213000c0f5385ca961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Yazdırıldı</sys_name>
+            <sys_package display_value="LYS" source="x_222269_lys">4c70e2b2db3113000c0f5385ca96192a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LYS">4c70e2b2db3113000c0f5385ca96192a</sys_scope>
+            <sys_update_name>sys_documentation_x_222269_lys_logistics_printed_tr</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-10 14:27:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

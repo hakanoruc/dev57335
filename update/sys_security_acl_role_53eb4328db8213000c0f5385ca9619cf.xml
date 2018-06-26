@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 12:38:31</sys_created_on>
+        <sys_id>53eb4328db8213000c0f5385ca9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_222269_lys_logistics.x_222269_lys.user</sys_name>
+        <sys_package display_value="LYS" source="x_222269_lys">4c70e2b2db3113000c0f5385ca96192a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LYS">4c70e2b2db3113000c0f5385ca96192a</sys_scope>
+        <sys_security_acl display_value="x_222269_lys_logistics">1beb4328db8213000c0f5385ca9619cc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_53eb4328db8213000c0f5385ca9619cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 12:38:31</sys_updated_on>
+        <sys_user_role display_value="x_222269_lys.user" name="x_222269_lys.user">88706eb2db3113000c0f5385ca961983</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

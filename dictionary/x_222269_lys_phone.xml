@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Phone" max_length="40" name="x_222269_lys_phone" type="collection">
+        <element label="Case" max_length="32" name="case" reference="x_222269_lys_case" type="reference"/>
+        <element label="Phone Number" max_length="20" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="İletişim açık" language="tr" sequence="10" value="valid"/>
+                <element label="Valid" sequence="10" value="valid"/>
+                <element label="Ulaşılamıyor" language="tr" sequence="20" value="unreachable"/>
+                <element label="Unreachable" language="tr" sequence="20" value="unreachable"/>
+                <element label="Beyan edilen" language="tr" sequence="30" value="declared"/>
+                <element label="Declared" sequence="30" value="declared"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Ev" language="tr" sequence="10" value="home"/>
+                <element label="Home" sequence="10" value="home"/>
+                <element label="Sms" sequence="15" value="sms"/>
+                <element label="İş" language="tr" sequence="20" value="work"/>
+                <element label="Work" sequence="20" value="work"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

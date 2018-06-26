@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Dosya" max_length="40" name="x_222269_lys_case" type="collection">
+        <element label="Applicant Date Of Birth" max_length="40" name="applicant_date_of_birth" type="glide_date"/>
+        <element label="Applicant Last Name" max_length="40" name="applicant_last_name" type="string"/>
+        <element label="Applicant Name" max_length="40" name="applicant_name" type="string"/>
+        <element label="T.C. Kimlik No" max_length="11" name="applicant_presonel_id" type="string"/>
+        <element label="Application Date" max_length="40" name="application_date" type="glide_date_time"/>
+        <element choice="1" label="Confidentiality" max_length="40" name="confidentiality" type="choice">
+            <choice>
+                <element label="Açık" language="tr" value="open"/>
+                <element label="Open" value="open"/>
+            </choice>
+        </element>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element label="Case Number" max_length="20" name="number" type="string"/>
+        <element label="Sms" max_length="20" name="sms" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Case Open" value="open"/>
+                <element label="Dosya Açık" language="tr" value="open"/>
+            </choice>
+        </element>
+        <element label="Tag" max_length="4000" name="tags" reference="label" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element label="Aile" language="tr" value="family"/>
+                <element label="Family" value="family"/>
+            </choice>
+        </element>
+        <element label="Voice" max_length="20" name="voice" type="string"/>
+    </element>
+</database>
